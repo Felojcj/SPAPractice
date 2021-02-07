@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Reset */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Main Styles */
+
+.header {
+  width: 100%;
+  padding: 1rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box[type=search] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #33BCA5;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.search-box::placeholder {
+  font-family: 'Poppins', sans-serif;;
+}
+
+.main-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  margin-left: 1rem;
+  color: black;
+}
+
+.menu {
+  width: 48%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  color: black;
+}
+
+.menu a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #33BCA5;
+  transition: width .4s;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
