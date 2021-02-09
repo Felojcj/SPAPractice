@@ -7,7 +7,7 @@ export function SearchForm () {
 
     $input.name = 'search'
     $input.type = 'search'
-    $input.placeholder = 'Buscar...'
+    $input.placeholder = 'Search...'
     $input.autocomplete = 'off'
 
     $form.appendChild($input)

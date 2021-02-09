@@ -1,9 +1,15 @@
 const NAME = 'Felipe Correa',
   NICK_NAME = 'Felojcj',
-  LOGO = '/app/assets/favicon.svg'
+  SLOGAN = 'Can You See The Meaning In Your Darkness',
+  PROFILE_PIC = '/app/assets/profile.jpg',
+  LOGO = '/app/assets/favicon.svg',
+  BANNER = '/app/assets/banner.jpg'
 
 export default {
   NAME,
   NICK_NAME,
-  LOGO
+  SLOGAN,
+  PROFILE_PIC,
+  LOGO,
+  BANNER
 }

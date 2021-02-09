@@ -6,3 +6,4 @@ document.addEventListener('submit', e => {
 
   e.preventDefault()
 })
+window.addEventListener('hashchange', App)

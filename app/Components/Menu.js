@@ -4,10 +4,10 @@ export function Menu() {
   $menu.classList.add('menu')
 
   $menu.innerHTML = `
-    <a href="#/nosotros">Sobre Mi</a> 
+    <a href="#/nosotros">About Me</a> 
     <a href="#/productos">CV</a>
     <a href="#/blog">Blog</a>
-    <a href="#/contacto">Contacto</a>
+    <a href="#/contacto">Get In Touch</a>
   `
 
   return $menu

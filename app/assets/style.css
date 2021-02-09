@@ -34,8 +34,11 @@ img {
   width: 100%;
   padding: 1rem;
   position: sticky;
+  top: 0;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
   align-items: center;
 }
 
@@ -54,9 +57,42 @@ img {
   font-family: 'Poppins', sans-serif;;
 }
 
+.main-banner {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('/app/assets/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-banner img{
+  border-radius: 100%;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
 .main-icon {
   width: 32px;
   height: 32px;
+}
+
+.main-intro {
+  width: 100%;
+  height: auto;
+}
+
+.main-intro article {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
 }
 
 .main-logo {
